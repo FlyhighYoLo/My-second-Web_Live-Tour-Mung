@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live tour mung</title>
+<style>
+    h1{
+        text-align: center;
+        font-size: 300%;
+        border-bottom:1px solid gray;
+        margin: 0;
+        padding: 20px;
+    }
+    a:hover { color: orange;
+
+    }
+    #contents{
+        border-right: 1px solid gray;
+        width: 170px;
+        margin:0;
+        padding:20px;
+    }
+    #grid{
+        display: grid;
+        grid-template-columns: 150px 1fr;
+    }
+    #article{
+        text-align: center;
+        padding-left: 85px;
+    }
+    #img{
+        text-align: center;
+    }
+    @media(max-width:800px){
+        #grid{
+        display: block;
+        }
+        #contents{
+        border-right: none;}
+        
+        
+    }
+</style>
+</head>
+<body>
+    <h1>
+     Live Tour Mung
+    </h1>
+<div id="grid">
+    <ul id="contents">
+        <li><a href="1.US.html"target="blank"class="us">United states</a>
+        </li>
+
+        <li><a href="2.Korea.html"target="blank"class="kr"> Korea</a>
+        </li>
+        
+        <li><a href="3.France.html" target="blank"class="fr">France</a> 
+        </li>
+        
+        <li><a href="4.Ukraine.html">Ukraine</a></li>
+
+    </ul>
+     <div id="article">
+      <h2>
+        You can go everywhere on time! 
+      </h2>
+        <p>가고 싶었던, 그리웠던 추억 속 여행지를 찾아 실시간 영상으로 즐기세요! 풍경을 보며 멍때리세요 (전체화면을 권장합니다)
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus consectetur adipisci deserunt similique blanditiis placeat, cupiditate doloremque autem maiores eius repellat eaque, illum vero ratione suscipit veritatis! Qui, debitis odit!
+        </p>
+     </div>
+</div>
+
+        <p id="img">
+            <img src="표지사진.jpg" width="600" alt="" srcset="">
+            <img src="표지사진3.jpg" width="300" alt="" srcset="">
+          </p>
+
+    <p>
+        <br><br><div id="disqus_thread"></div>
+        <script>
+            /**
+            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://web1-t93cbadhd9.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+       </p>
+
+</body>
+</html>
